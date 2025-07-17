@@ -11,6 +11,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
   - [Unity Project](#unity-project)
   - [Node.js Server](#nodejs-server)
   - [MySQL Database](#mysql-database)
+- [Known Limitations](#known-limitations)
 - [Repository Structure](#repository-structure)
 - [Credits](#credits)
 - [License](#license)
@@ -84,6 +85,11 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 3. Make sure you change the `config.js` file values to match your MySQL credentials.
 
 ---
+
+## Known Limitations
+The **instructor dashboard** component is not yet functional.
+
+While student logging and tracking systems are active, the web interface for professors to view logs, monitor progress, or manage sessions is not implemented.
 
 ## Repository Structure
 
