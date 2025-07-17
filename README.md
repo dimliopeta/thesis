@@ -6,14 +6,14 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ## 📦 Contents
 
-- [Requirements](#-requirements)
-- [Installation Instructions](#-installation-instructions)
+- [Requirements](#requirements)
+- [Installation Instructions](#installation-instructions)
   - [Unity Project](#unity-project)
   - [Node.js Server](#nodejs-server)
   - [MySQL Database](#mysql-database)
-- [Repository Structure](#-repository-structure)
-- [Credits](#-credits)
-- [License](#-license)
+- [Repository Structure](#repository-structure)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
