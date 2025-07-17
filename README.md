@@ -44,7 +44,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ### 🌐 Node.js Server
 
-1. Navigate to the `Server/` folder:
+1. Navigate to the `server/` folder:
    ```bash
    cd server
    ```
