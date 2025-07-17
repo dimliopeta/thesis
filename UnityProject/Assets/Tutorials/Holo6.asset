@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo6
+  m_EditorClassIdentifier: 
+  screenName: Holo6
+  slides:
+  - slideText: "Now that we understand how keys work, let\u2019s take it one step
+      further!"
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'Sometimes, we want to view certain data from different tables that
+      are connected. '
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'For example:
+
+
+      We want to see all the members who have rented
+      a book
+
+      Or list all the books currently rented.'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: "But that data is split across two tables \u2014 so how do we bring
+      it together?"
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'This is where the JOIN keyword comes in!
+
+      It helps us connect
+      related records from different tables using their keys.'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'Let''s imagine our the data of our tables as circles. Let''see what
+      JOIN does! '
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  quizzes: []

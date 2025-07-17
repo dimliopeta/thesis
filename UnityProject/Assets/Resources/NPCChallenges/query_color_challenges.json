@@ -1,0 +1,57 @@
+[
+  {
+    "query": "SELECT * FROM Books;",
+    "columns": ["Book_Title", "Author", "Genre", "Publication_Year"],
+    "tableData": [
+      { "Book_Title": "Fahrenheit", "Author": "Bradbury Ray", "Genre": "Dystopy", "Publication_Year": "1953" },
+      { "Book_Title": "100 Χρόνια", "Author": "Marquez Gabriel", "Genre": "Magic Realism", "Publication_Year": "1967" },
+      { "Book_Title": "Lord of the Flies", "Author": "Golding William", "Genre": "Allegory", "Publication_Year": "1954" },
+      { "Book_Title": "The Picture of Dorian Gray", "Author": "Wilde Oscar", "Genre": "Gothic", "Publication_Year": "1890" }
+    ],
+    "correctRows": [0, 1, 2, 3]
+  },
+  {
+    "query": "SELECT Genre FROM Books;",
+    "columns": ["Book_Title", "Author", "Genre", "Publication_Year"],
+    "tableData": [
+      { "Book_Title": "Fahrenheit", "Author": "Bradbury Ray", "Genre": "Dystopy", "Publication_Year": "1953" },
+      { "Book_Title": "100 Χρόνια", "Author": "Marquez Gabriel", "Genre": "Magic Realism", "Publication_Year": "1967" },
+      { "Book_Title": "Lord of the Flies", "Author": "Golding William", "Genre": "Allegory", "Publication_Year": "1954" },
+      { "Book_Title": "The Picture of Dorian Gray", "Author": "Wilde Oscar", "Genre": "Gothic", "Publication_Year": "1890" }
+    ],
+    "correctRows": [0, 1, 2, 3]
+  },
+  {
+    "query": "SELECT Book_Title FROM Books WHERE Author = 'Wilde Oscar';",
+    "columns": ["Book_Title", "Author", "Genre", "Publication_Year"],
+    "tableData": [
+      { "Book_Title": "Fahrenheit", "Author": "Bradbury Ray", "Genre": "Dystopy", "Publication_Year": "1953" },
+      { "Book_Title": "100 Χρόνια", "Author": "Marquez Gabriel", "Genre": "Magic Realism", "Publication_Year": "1967" },
+      { "Book_Title": "Lord of the Flies", "Author": "Golding William", "Genre": "Allegory", "Publication_Year": "1954" },
+      { "Book_Title": "The Picture of Dorian Gray", "Author": "Wilde Oscar", "Genre": "Gothic", "Publication_Year": "1890" }
+    ],
+    "correctRows": [3]
+  },
+  {
+    "query": "SELECT * FROM Books WHERE Publication_Year > 1900 AND Publication_Year < 1960;",
+    "columns": ["Book_Title", "Author", "Genre", "Publication_Year"],
+    "tableData": [
+      { "Book_Title": "Fahrenheit", "Author": "Bradbury Ray", "Genre": "Dystopy", "Publication_Year": "1953" },
+      { "Book_Title": "100 Χρόνια", "Author": "Marquez Gabriel", "Genre": "Magic Realism", "Publication_Year": "1967" },
+      { "Book_Title": "Lord of the Flies", "Author": "Golding William", "Genre": "Allegory", "Publication_Year": "1954" },
+      { "Book_Title": "The Picture of Dorian Gray", "Author": "Wilde Oscar", "Genre": "Gothic", "Publication_Year": "1890" }
+    ],
+    "correctRows": [0, 2]
+  },
+  {
+    "query": "SELECT Author FROM Books WHERE Book_Title LIKE 'Lord%';",
+    "columns": ["Book_Title", "Author", "Genre", "Publication_Year"],
+    "tableData": [
+      { "Book_Title": "Fahrenheit", "Author": "Bradbury Ray", "Genre": "Dystopy", "Publication_Year": "1953" },
+      { "Book_Title": "100 Χρόνια", "Author": "Marquez Gabriel", "Genre": "Magic Realism", "Publication_Year": "1967" },
+      { "Book_Title": "Lord of the Flies", "Author": "Golding William", "Genre": "Allegory", "Publication_Year": "1954" },
+      { "Book_Title": "The Picture of Dorian Gray", "Author": "Wilde Oscar", "Genre": "Gothic", "Publication_Year": "1890" }
+    ],
+    "correctRows": [2]
+  }
+]

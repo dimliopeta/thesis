@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a529077a5ae4d064ba5439a0f06114b3, type: 3}
+  m_Name: Quiz2a
+  m_EditorClassIdentifier: 
+  question: "SELECT Title, Name FROM Books \r\nJOIN Authors ON Books.AuthorID = Authors.ID\r\nWHERE
+    Authors.Nationality = 'British';\r"
+  answers:
+  - Shows the titles of books written by British authors.
+  - Shows all books and their authors.
+  - Shows only authors from Britain.
+  correctAnswerIndex: 0

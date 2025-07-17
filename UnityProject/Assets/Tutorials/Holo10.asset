@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo10
+  m_EditorClassIdentifier: 
+  screenName: Holo10
+  slides:
+  - slideText: 'Let''s see if we got all that!
+
+'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'You will be given a query and you have to choose what results it
+      will generate!
+
+'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  quizzes:
+  - {fileID: 11400000, guid: 0cc39c6514525b3498c63fc1e2194351, type: 2}
+  - {fileID: 11400000, guid: f0f301143ac874c41878ac255cb90a40, type: 2}
+  - {fileID: 11400000, guid: 772291eeb93a0764eb12c3e3af8163d6, type: 2}
+  - {fileID: 11400000, guid: 0bdd15b692ee6964a89040283445d423, type: 2}

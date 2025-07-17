@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo8
+  m_EditorClassIdentifier: 
+  screenName: Holo8
+  slides:
+  - slideText: 'We started with just three tables:
+
+      Books, Members, Rentals'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'But now that we understand how keys work...
+
+      ...we can make
+      our database bigger and smarter!'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: "For example:\nWe don\u2019t need to write the author\u2019s name
+      inside every book row.\nInstead, we can just use an AuthorID."
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'That way:
+
+      One author can be linked to many books without repeating
+      their name.
+
+      The same goes for genres.'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: "And here\u2019s the cool part:\nIf a book belongs to more than one
+      genre,\nwe can handle that too \u2014 using extra tables.\n\nAll this is possible
+      because of...\nKeys and table connections!"
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  quizzes: []

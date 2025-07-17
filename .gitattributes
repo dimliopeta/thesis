@@ -1,0 +1,38 @@
+# ===== LINE ENDING NORMALIZATION =====
+* text=auto
+
+# ===== UNITY FILE TYPES =====
+*.cs           text
+*.shader       text
+*.cginc        text
+*.meta         text
+*.unity        text
+*.prefab       text
+*.asset        text
+*.mat          text
+*.json         text
+*.txt          text
+*.xml          text
+*.asmdef       text
+
+# Fonts & Docs
+*.ttf          binary
+*.pdf          binary
+
+# Images and binary
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.fbx          binary
+
+# ===== VSCODE CONFIG =====
+*.code-workspace text
+*.vscode/*       text
+
+# ===== NODE.JS FILES =====
+*.js           text
+*.ts           text
+*.json         text
+*.env          text
+*.sql          text
+*.lock         text

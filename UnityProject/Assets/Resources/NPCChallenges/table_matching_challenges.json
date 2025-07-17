@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Who rented 'Harry Potter'?",
+        "availableTables": ["Books","Authors","Members","Rentals","Genres"],
+        "correctJoinPath": ["Books","Rentals","Members"]
+    },
+    {
+        "question": "What books were rented in June?",
+        "availableTables": ["Books","Authors","Members","Rentals","Genres"],
+        "correctJoinPath": ["Books","Rentals"]
+    },
+    {
+        "question": "Which genres are more popular?",
+        "availableTables": ["Books","Authors","Members","Rentals","Genres"],
+        "correctJoinPath": ["Rentals","Books","Genres"]
+    },
+    {
+        "question": "List all books by British Authors.",
+        "availableTables": ["Books","Authors","Members","Rentals","Genres"],
+        "correctJoinPath": ["Books","Authors"]
+    },
+    {
+        "question": "Which member rented the most books?",
+        "availableTables": ["Books","Authors","Members","Rentals","Genres"],
+        "correctJoinPath": ["Members","Rentals"]
+    }
+]

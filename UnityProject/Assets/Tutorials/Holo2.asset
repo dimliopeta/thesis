@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo2
+  m_EditorClassIdentifier: 
+  screenName: Holo2
+  slides:
+  - slideText: What is a database
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: A database is like a storage room where we keep all kinds of information
+      organized. Imagine it as a big box where each piece of information is kept
+      in its own special folder.
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: What is a table?
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: "A table is like a list or grid that holds data in rows and columns.
+      \n-\nEach row represents a single entry, and each column represents a characteristic
+      of that entry."
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: "Lets start with an easy example.\n- \r\nA library needs to keep track
+      of its books.\r\n"
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'Move all the book titles under the "Book Title" Column to reveal
+      the other charachteristics of each book!
+
+'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  quizzes: []

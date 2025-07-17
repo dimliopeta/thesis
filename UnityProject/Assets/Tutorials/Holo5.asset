@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo5
+  m_EditorClassIdentifier: 
+  screenName: Holo5
+  slides:
+  - slideText: "But that's not all!\nSQL can also calculate and summarize data for
+      you \u2014 not just list it."
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'AVG(column)
+
+      Calculates the average value from a column.
+
+      Example:
+      SELECT AVG(Age) FROM users;'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'COUNT(column)
+
+      Counts how many rows have a value in that column.
+
+      Example:
+      SELECT COUNT(*) FROM Books;'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  - slideText: 'ORDER BY column
+
+      Sorts the results by a column, ascending by
+      default.
+
+      Example: SELECT * FROM Books ORDER BY Title;'
+    slideImage: {fileID: 0}
+    requiredEventName: 
+  quizzes:
+  - {fileID: 11400000, guid: 0d5e6a63e51c05146a2a60e1606744df, type: 2}
+  - {fileID: 11400000, guid: a47958fa4e1a0464c89c3358f8f61805, type: 2}
+  - {fileID: 11400000, guid: cade6c4e277359943b80a93154e47eea, type: 2}

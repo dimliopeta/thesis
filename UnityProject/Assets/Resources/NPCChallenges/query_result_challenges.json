@@ -1,0 +1,22 @@
+[
+    {
+        "correctQuery": "SELECT Members.Name, Members.LastName FROM Members JOIN Rentals ON Members.ID = Rentals.MemberID;",
+        "options": ["SELECT Name FROM Members;", "SELECT Members.Name, Members.LastName FROM Members JOIN Rentals ON Members.ID = Rentals.MemberID;", "SELECT Title FROM Books JOIN Rentals ON Books.ID = Rentals.BookID;"],
+        "explanation": "All these members have rented books."
+    },
+    {
+        "correctQuery": "SELECT Title FROM Books JOIN Rentals ON Books.ID = Rentals.BookID;",
+        "options": ["SELECT Books.Title FROM Books;", "SELECT Rentals.BookID FROM Rentals;", "SELECT Title FROM Books JOIN Rentals ON Books.ID = Rentals.BookID;"],
+        "explanation": "Those books are rented."
+    },
+    {
+        "correctQuery": "SELECT RentDate, Name FROM Rentals JOIN Members ON Rentals.MemberID = Members.ID;",
+        "options": ["SELECT RentDate, Name FROM Rentals JOIN Members ON Rentals.MemberID = Members.ID;", "SELECT RentDate FROM Rentals;", "SELECT Name FROM Members;"],
+        "explanation": "These members rented a book at the date that’s shown."
+    },
+    {
+        "correctQuery": "SELECT Name FROM Members WHERE ID NOT IN (SELECT MemberID FROM Rentals);",
+        "options": ["SELECT Name FROM Members WHERE ID NOT IN (SELECT MemberID FROM Rentals);", "SELECT Name FROM Members;", "SELECT MemberID FROM Rentals;"],
+        "explanation": "These members have never rented a book."
+    }
+]

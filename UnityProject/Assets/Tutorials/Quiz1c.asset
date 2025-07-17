@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a529077a5ae4d064ba5439a0f06114b3, type: 3}
+  m_Name: Quiz1c
+  m_EditorClassIdentifier: 
+  question: 'What does this query do?
+
+    SELECT COUNT(*) FROM Members;
+
+'
+  answers:
+  - A) Counts how many rows are in the Members table
+  - B) Lists all member names
+  - C) Calculates the average age of all members
+  correctAnswerIndex: 0

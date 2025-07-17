@@ -1,0 +1,21 @@
+# ===== UNITY PROJECT =====
+/UnityProject/Library/
+/UnityProject/Temp/
+/UnityProject/Obj/
+/UnityProject/Build/
+/UnityProject/Builds/
+/UnityProject/Logs/
+/UnityProject/UserSettings/
+/UnityProject/.vs/
+/UnityProject/.idea/
+/UnityProject/*.csproj
+/UnityProject/*.sln
+
+# ===== NODE.JS SERVER =====
+/Server/node_modules/
+/Server/.env
+
+# ===== OS-SPECIFIC / GENERAL =====
+.DS_Store
+Thumbs.db
+*.log

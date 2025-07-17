@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc01fb3456c65ba45aa94f6cfc725bdb, type: 3}
+  m_Name: Holo9
+  m_EditorClassIdentifier: 
+  screenName: Holo9
+  slides:
+  - slideText: 'Interact here! (by pressing E) '
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: "What you\u2019re looking at is a map of our upgraded database.\nEach
+      box represents a table and its columns."
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: "The arrows show how tables are connected.\nThey represent the foreign
+      keys \u2014 the links between data."
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: "Books connects to Genres and Authors.\nThat\u2019s how we know what
+      type of book it is, and who wrote it."
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: "Rentals is in the center.\nIt connects books and members \u2014 so
+      we know who rented what and when."
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: "With JOIN, we can connect as many tables as we need and bring together
+      all the information we need \u2014 in one result!"
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: 'So, lets play a game! '
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  - slideText: Read the question and click on the names of the tables you think should
+      be JOINed to answer it.
+    slideImage: {fileID: 21300000, guid: afd53a8ce10934140b9f3bfc97d7695c, type: 3}
+    requiredEventName: 
+  quizzes: []
