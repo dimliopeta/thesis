@@ -17,7 +17,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - **Unity:** 2021.3 LTS or later
 - **Node.js:** version 18 or later
@@ -26,9 +26,9 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-## 🛠 Installation Instructions
+## Installation Instructions
 
-### 🎮 Unity Project
+### Unity Project
 
 1. Clone the repository:
    ```bash
@@ -42,7 +42,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-### 🌐 Node.js Server
+### Node.js Server
 
 1. Navigate to the `server/` folder:
    ```bash
@@ -69,7 +69,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-### 🗄️ MySQL Database
+### MySQL Database
 
 1. Create a new database:
    ```sql
@@ -85,7 +85,7 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 /
@@ -101,9 +101,9 @@ This project is a thesis implementation of a 3D learning environment for SQL edu
 
 ---
 
-## 👥 Credits
+## Credits
 
-### 📢 Event System: `Messenger.cs`
+### Event System: `Messenger.cs`
 
 Uses `Messenger.cs` for script-to-script messaging:
 
@@ -111,7 +111,7 @@ https://github.com/jhocking/from-unity-wiki/blob/main/Messenger.cs
 
 ---
 
-### 🧍‍♂️ 3D Avatars
+### 3D Avatars
 
 Character avatars from:
 
@@ -120,13 +120,13 @@ Character avatars from:
 
 ---
 
-## ⚖️ License
+## ⚖ License
 
 This project was developed for academic and educational purposes.  
 Any third-party assets or libraries used are subject to their respective licenses.
 
 ---
 
-## ✉️ Contact
+## ✉ Contact
 
 For questions or suggestions, reach out via GitHub or email.
