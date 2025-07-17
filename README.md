@@ -120,13 +120,13 @@ Character avatars from:
 
 ---
 
-## ⚖ License
+## License
 
 This project was developed for academic and educational purposes.  
 Any third-party assets or libraries used are subject to their respective licenses.
 
 ---
 
-## ✉ Contact
+## Contact
 
 For questions or suggestions, reach out via GitHub or email.
