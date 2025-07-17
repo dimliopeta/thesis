@@ -1,4 +1,4 @@
-# 🎓 3D SQL Learning Game – Unity Thesis Project
+# 🎓 3D SQL Learning 3D World – Unity Thesis Project
 
 This project is a thesis implementation of a 3D learning environment for SQL education, developed in Unity and enriched with gamification elements, logging systems, checkpoint tracking, and AI NPC guidance using the OpenAI API.
 
